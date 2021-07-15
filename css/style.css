@@ -25,6 +25,7 @@ a {
 	font-weight: 800;
 	font-size: 4.5rem;
 	margin-top: 55%;
+	line-height: 1.5;
 	color: #fff;
 	background: linear-gradient(
 		271deg,
@@ -42,17 +43,20 @@ a {
 	font-size: 2rem;
 }
 /* animation */
+.animation {
+	margin: 0 auto;
+}
 .container-animation {
 	box-sizing: border-box;
 	background-color: skyblue;
 	position: relative;
 	height: 600px;
-	width: 600px;
+	width: 500px;
 	border-radius: 60px;
 }
 .mountain {
 	position: absolute;
-	top: 331.5px;
+	top: 376.5px;
 	left: 82px;
 	width: 75%;
 }
@@ -65,7 +69,7 @@ a {
 .cloud-right {
 	position: absolute;
 	top: 300px;
-	left: 400px;
+	left: 300px;
 	animation: moveInRight 15s ease-in 20;
 }
 @keyframes moveInleft {
@@ -104,14 +108,16 @@ a {
 }
 .about-me-title {
 	font-family: 'Roboto Slab', serif;
-	font-size: 3rem;
+	font-size: 2.5rem;
 }
 .profile-photo {
-	height: 800px;
-	width: 600px;
+	position: relative;
+	box-sizing: border-box;
 }
 .photo {
-	width: 90%;
+	margin: 0 auto;
+	width: 500px;
+
 	border-radius: 60px;
 }
 .me {
